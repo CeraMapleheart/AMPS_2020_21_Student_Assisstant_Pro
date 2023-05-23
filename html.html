@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Productivity Platform</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Productivity Platform</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('create-notes')">Create Notes</a></li>
+            <li><a href="#" onclick="showSection('syllabus')">Syllabus</a></li>
+            <li><a href="#" onclick="showSection('planner')">Planner</a></li>
+            <li><a href="#" onclick="showSection('journal')">Journal</a></li>
+            <li><a href="#" onclick="showSection('settings')">Settings</a></li>
+        </ul>
+    </nav>
+    <section id="create-notes">
+        <h2>Create Notes</h2>
+        <textarea id="note-content" placeholder="Enter your note content"></textarea>
+        <button onclick="saveNote()">Save Note</button>
+        <!--     Speech recognition text to speech -->
+    </section>
+    <section id="syllabus">
+        <h2>Syllabus</h2>
+        <!-- Add Modify -->
+    </section>
+    <section id="planner">
+        <h2>Notes</h2>
+        <!-- Topics subtopics notes -->
+    </section>
+    <section id="planner">
+        <h2>Planner</h2>
+        <!-- Agenda statistics goals timetable -->
+    </section>
+    <section id="journal">
+        <h2>Journal</h2>
+        <!-- Calendar create submit -->
+    </section>
+    <section id="settings">
+        <h2>Settings</h2>
+        <!-- Suggestion and update -->
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
